@@ -3,11 +3,10 @@ layout: default
 title: bpruitt-goddard.github.io
 ---
 
-  <h2>Recent Posts</h2>
-  <ul>
-    {% for post in site.posts do %}
+<ul>
+  {% for post in site.posts %}
     <li>
       {{ post.date | date: "%-d %B %Y" }} <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
-    {% endfor %}
-  </ul>  
+  {% endfor %}
+</ul>

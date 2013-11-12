@@ -2,7 +2,6 @@ name: Creative Blog Name
 description: A technical blog covering my random musings
 
 permalink: /:year/:month/:day/:title/
-paginate: 10
 pygments: true
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
