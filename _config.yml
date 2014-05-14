@@ -1,5 +1,5 @@
-name: Creative Blog Name
-description: A technical blog covering my random musings
+name: Developer Musings
+description: A technical blog covering my random thoughts
 
 permalink: /:year/:month/:day/:title/
 pygments: true
