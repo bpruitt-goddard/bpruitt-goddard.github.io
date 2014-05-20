@@ -1,6 +1,6 @@
 name: Developer Musings
 description: A technical blog covering my random thoughts
-permalink: /posts/:title/
+permalink: /:year/:month/:day/:title/
 pygments: true
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 markdown: kramdown
