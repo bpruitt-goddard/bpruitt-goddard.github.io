@@ -1,20 +1,47 @@
 ---
 layout: default
+title: Switching To Programmer's DVORAK
 ---
 
+# Switching To Programmer's DVORAK
 
-Words per minute improvement graph below!
+I have long been fascinated with alternatives to the standard QWERTY layout. I was aware that other keyboard layouts existed and was vaguely familiar with [Dvorak](http://www.wikiwand.com/en/Dvorak_Simplified_Keyboard) and [Colemak](http://www.wikiwand.com/en/Keyboard_layout#/Colemak). I was aware that the alternatives offered speed improvements once mastered, but this was not a concern as the majority of my typing is writing code and short communications. I finally decided to make the switch once I started reading about the health benefits of using a layout that had more of the common letters on the home row and the subsequent reduced finger strain. As I spend a large amount of my day typing, I am always on the lookout for workplace ergonomic improvements.
+
+After deciding to switch layouts, I decided I would do some research into what else was out there. The search ended once I found the [Programmer's Dvorak "sub"-layout](http://www.kaufmann.no/roland/dvorak/). It combines the typing layout in DVORAK - most frequent letters on home row and alternating hands while typing words, with the reworking of various symbols to be more programmer-friendly. The layout can be seen below:
+
+![Programmer's Dvorak](/assets/images/programmers-dvorak-layout.png)
+*http://programmer-dvorak.appspot.com/img/KB_Programmer_Dvorak.png*
+
+# Progress
+
+I started learning the new layout through the very helpful lessons listed [here](http://programmer-dvorak.appspot.com/). They slowly introduced new letters while maintaining the muscle memory of the previous ones. I simply went through each lesson a few times for a half hour each night and started to notice improvement. While learning, I took frequent tests of my typing speed on [Ratatype](ratatype.com/typing-test/test/) and recorded the results in the graphs at the end of this post. My biggest mistake during this period was missing a few weeks of lessons during an extended vacation in August. This can be seen with the sharp leveling off of my speed improvements. Once returning, I had to go back a few lessons and re-learn the keys that weren't already committed to muscle memory.
+
+After a few months, my speed grew increasing tolerable and I could start using the new layout for typing outside of the lessons. Windows provides a shortcut to quickly switch layouts (Win + space) if I got stuck or frustrated, but this became less of a necessity as my skills improved. My DVORAK speed is currently about half my QWERTY speed at 42WPM and I am able to spend long periods of time exclusively in DVORAK both for typing English words and programming in C#.
+
+# Maintaining QWERTY
+
+One concern I had during my learning was that I would lose my proficiency at QWERTY. I could work exclusively in DVORAK at my personal and work machines, but I still had to interact with my phone and other's computers. I decided that once proficient in DVORAK, I would still switch back every once in a while to maintain both layouts. I am further ensuring this by tracking my QWERTY speed as well in the graphs below.
+
+# Lessons Learned
+
+* Tracking the progress can be a major motivator, especially when the speed difference with the new layout leads to frustration.
+* Be consistent, especially until you have a general idea of where all the keys are, before skipping lessons.
+* Switching can be done slowly or quickly as long as you are consistent. I only spent 30 minutes a day and was able to retrain my fingers.
+* You can be fluent in multiple layouts as long as you consistently use both.
+* There is a period of a few minutes once familiar with two layouts while you slowly remember the correct muscle memory for the current layout. You can still perform proficiently in both, but it is sometimes temporarily confusing quickly switching between them.
 
 
-<figure class="wpm">
+The graphs will be updated over the next few months while my DVORAK speed catches up with QWERTY.
+
+<figure class="wpm">  
   <figcaption>Words Per Minute (WPM) improvement</figcaption>
 </figure>
-
-And here is the one for accuracy!
 
 <figure class="accuracy">
   <figcaption>Accuracy improvement</figcaption>
 </figure>
+
+
 
 <style>
 path { 
@@ -44,6 +71,7 @@ path {
 figcaption {
   text-align: center;
   font-size: 1.5em;
+  color: #cb4b16;
 }
 
 </style>
