@@ -5,8 +5,6 @@ title: API Automation Using Tasker And Voice Input
 
 As an avid board gamer, I pay attention to the rankings on [BoardGameGeek](https://boardgamegeek.com/browse/boardgame) to keep up-to-date on what the new and popular games are. Additionally, the overall rankings provide me with a general idea of whether a game is roughly good or bad when making a buying decision. But looking this data up is slightly cumbersome as it requires searching for the game and bringing up its page. Combining this with my recent discovery of the [AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=en) Tasker plugin, I decided to make a handy assistant that could provide me this information more easily and quickly.
 
-{% include youtubePlayer.html id=page.youtubeId %}
-
 # Purpose
 
 I wanted to create a voice command that would hook into Google Voice. The command would listen for the phrase "BGG rank", followed by a board game name and simply provide me with it's board game rank from the BoardGameGeek website. It can get tripped up with difficult names, or games re-released at different times, but these are limitations with the API.
