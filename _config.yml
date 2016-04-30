@@ -1,9 +1,13 @@
 name: Developer Musings
 description: A technical blog covering my random thoughts
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highligher: rouge
 
 pages_list:
   About: '/about/'
