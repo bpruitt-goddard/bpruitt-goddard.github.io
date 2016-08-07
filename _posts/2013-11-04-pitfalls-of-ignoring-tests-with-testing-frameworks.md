@@ -5,7 +5,7 @@ title: Pitfalls of Ignoring Tests with Testing Frameworks
 
 #Pitfalls of Ignoring Tests with Testing Frameworks
 
-*This is a repost of the entry written on the [TrackAbout Blog](http://blog.trackabout.com/2013/11/04/pitfalls-of-ignoring-tests-with-testing-frameworks/)*
+*This is a repost of the entry written on the [TrackAbout Blog](https://corp.trackabout.com/blog/pitfalls-of-ignoring-tests-with-testing-frameworks/)*
 
 Recently there was a [pull request](https://github.com/trackabout/speceasy/pull/14) on SpecEasy, our open-source unit testing framework, for implementing an `IgnoreSpec` attribute to allow test methods to be ignored during test runs. This spurred a discussion on whether it was *necessary* to even provide the ability to skip tests.
 
