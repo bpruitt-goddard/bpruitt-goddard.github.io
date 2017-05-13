@@ -14,7 +14,7 @@ After deciding to switch layouts, I decided I would do some research into what e
 
 # Progress
 
-I started learning the new layout through the very helpful lessons listed [here](http://programmer-dvorak.appspot.com/). They slowly introduced new letters while maintaining the muscle memory of the previous ones. I simply went through each lesson a few times for a half hour each night and started to notice improvement. While learning, I took frequent tests of my typing speed on [Ratatype](ratatype.com/typing-test/test/) and recorded the results in the graphs at the end of this post. My biggest mistake during this period was missing a few weeks of lessons during an extended vacation in August. This can be seen with the sharp leveling off of my speed improvements. Once returning, I had to go back a few lessons and re-learn the keys that weren't already committed to muscle memory.
+I started learning the new layout through the very helpful lessons listed [here](http://programmer-dvorak.appspot.com/). They slowly introduced new letters while maintaining the muscle memory of the previous ones. I simply went through each lesson a few times for a half hour each night and started to notice improvement. While learning, I took frequent tests of my typing speed on [Ratatype](http://ratatype.com/typing-test/test/) and recorded the results in the graphs at the end of this post. My biggest mistake during this period was missing a few weeks of lessons during an extended vacation in August. This can be seen with the sharp leveling off of my speed improvements. Once returning, I had to go back a few lessons and re-learn the keys that weren't already committed to muscle memory.
 
 After a few months, my speed grew increasing tolerable and I could start using the new layout for typing outside of the lessons. Windows provides a shortcut to quickly switch layouts (Win + space) if I got stuck or frustrated, but this became less of a necessity as my skills improved. My DVORAK speed is currently about half my QWERTY speed at 42WPM and I am able to spend long periods of time exclusively in DVORAK both for typing English words and programming in C#.
 
@@ -26,7 +26,7 @@ One concern I had during my learning was that I would lose my proficiency at QWE
 
 * Tracking the progress can be a major motivator, especially when the speed difference with the new layout leads to frustration.
 * Be consistent, especially until you have a general idea of where all the keys are, before skipping lessons.
-* Switching can be done slowly or quickly as long as you are consistent. I only spent 30 minutes a day and was able to retrain my fingers.
+<!-- * Switching can boa done slowly or quickly as long as you are consistent. I only spent 30 minutes a day and was able to retrain my fingers. -->
 * You can be fluent in multiple layouts as long as you consistently use both.
 * There is a period of a few minutes once familiar with two layouts while you slowly remember the correct muscle memory for the current layout. You can still perform proficiently in both, but it is sometimes temporarily confusing quickly switching between them.
 
