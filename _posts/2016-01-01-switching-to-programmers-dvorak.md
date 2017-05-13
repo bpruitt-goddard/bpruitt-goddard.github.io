@@ -33,6 +33,11 @@ One concern I had during my learning was that I would lose my proficiency at QWE
 
 The graphs will be updated over the next few months while my DVORAK speed catches up with QWERTY.
 
+# Final Update
+
+After tracking my progress for the last two years, I have decided to stop tracking it. I have committed the DVORAK layout to muslce memory and can switch between the two seemlessly. I use DVORAK about 80% of the time while working, but have no issue switching mid-task between layouts. The charts indicate that I have not fully matched QWERTY speed, but I believe this to be because I have not used DVORAK sufficiently to type long-winded documents; most of my work involves only typing in short bursts for chat messages or the like. I enjoy using DVORAK as my primary layout because I can feel the difference in the general finger movement between the two layouts.
+
+
 <figure class="wpm">  
   <figcaption>Words Per Minute (WPM) improvement</figcaption>
 </figure>
