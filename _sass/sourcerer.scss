@@ -1,0 +1,53 @@
+$default-background: #222222;
+$default-color: #C2C2B0;
+$link-color: #6688AA;
+$link-border-background-color: #90B0D1;
+$link-hover-background-color: #333333;
+$header-color: #CC8800;
+
+html, body {
+	background-color: $default-background;
+	color: $default-color;
+}
+
+a, a:visited, a:active {
+	color: $link-color;
+}
+
+a:hover {
+	background-color: $link-hover-background-color;
+	border-color: $link-hover-background-color;
+	color: $link-color;
+}
+
+h1, h2, h3 {
+	color: $header-color;
+}
+
+h1 a, h1 a:visited, h1 a:active {
+	color: $header-color;
+}
+
+h1 a:hover {
+	background-color: $link-hover-background-color;
+	border-color: $link-hover-background-color;
+	color: $header-color;
+}
+
+article h1 a.anchor {
+	color: $link-color;
+}
+
+blockquote {
+	border-color: $header-color;
+}
+
+#sidebar a:hover {
+	color: $link-color;
+	background-color: $link-hover-background-color;
+}
+
+#footer {
+	border-color: $link-border-background-color;
+}
+
