@@ -51,3 +51,9 @@ blockquote {
 	border-color: $link-border-background-color;
 }
 
+code {
+    font: 0.90em Monaco, Courier, Monospace;
+    background: #000000;
+    border: 1px solid #363636;
+    color: #AA4450
+}
