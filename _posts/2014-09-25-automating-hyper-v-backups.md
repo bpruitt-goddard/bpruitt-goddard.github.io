@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: post
 title: Automating Hyper-V Backups
+category: Hyper-V
+tags: [automation, hyper-v]
 ---
-
-# Automating Hyper-V Backups
 
 One of the many benefits of having a machine virtualized is the ease of backing it up. With a virtual machine, you can simply copy the entire contents of the hard drive (in the form of a VHD file or similar) and have the entire system backed up. Hyper-V takes the simple copy-paste process step further and provides an import/export feature that backs up not only the hard drive, but also the additional xml configuration files containing the network, hardware (CPU cores and memory), and other settings and restores it just as easily. With the buildout of Hyper-V [powershell commands](http://technet.microsoft.com/en-us/library/hh848559.aspx), I have been contemplating automating this process. My current backup process is as follows:
 
@@ -27,7 +27,8 @@ Without further ado, here is the script:
 
 {% gist 9355d776cd5d8f133f44 %}
 
-# Future Tweaks
+
+## Future Tweaks
 I have yet to test some of the features from the original script such as automatic shut down, so I'll preface those with a *Use at your own risk* warning. I am contemplating building out some additional features such as specifying how many backups to keep to make it a little more robust.
 
 The biggest shortfall of this process is lack of ability to see the progress during the export. This is viewable inside the Hyper-V Manager during the export, but the powershell commands do not appear to expose this functionality anywhere.
