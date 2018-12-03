@@ -1,6 +1,8 @@
 ---
 layout: post
 title: API Automation Using Tasker And Voice Input
+category: Misc
+tags: [automation]
 ---
 
 As an avid board gamer, I pay attention to the rankings on [BoardGameGeek](https://boardgamegeek.com/browse/boardgame) to keep up-to-date on what the new and popular games are. Additionally, the overall rankings provide me with a general idea of whether a game is roughly good or bad when making a buying decision. But looking this data up is slightly cumbersome as it requires searching for the game and bringing up its page. Combining this with my recent discovery of the [AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=en) Tasker plugin, I decided to make a handy assistant that could provide me this information more easily and quickly.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Switching To Programmer's DVORAK
+category: Keyboard
+tags: [keyboard, dvorak]
 ---
 
 I have long been fascinated with alternatives to the standard QWERTY layout. I was aware that other keyboard layouts existed and was vaguely familiar with [Dvorak](http://www.wikiwand.com/en/Dvorak_Simplified_Keyboard) and [Colemak](http://www.wikiwand.com/en/Keyboard_layout#/Colemak). I was aware that the alternatives offered speed improvements once mastered, but this was not a concern as the majority of my typing is writing code and short communications. I finally decided to make the switch once I started reading about the health benefits of using a layout that had more of the common letters on the home row and the subsequent reduced finger strain. As I spend a large amount of my day typing, I am always on the lookout for workplace ergonomic improvements.

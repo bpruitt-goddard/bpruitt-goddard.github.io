@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Encrypting Hyper-V Virtual Machines
+category: Hyper-V
+tags: [hyper-v, encryption]
 ---
 
 Since updating to Windows 8, I have thoroughly enjoyed making use of Hyper-V and working inside of a local virtual machine. It makes backing up the system a breeze and can give you greater flexibility than working on the "bare metal." But the abstraction of working in a virtualized environment is quickly forgotten when it comes time to encrypt it.

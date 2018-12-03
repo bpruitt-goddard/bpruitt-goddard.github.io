@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Pitfalls of Ignoring Tests with Testing Frameworks
+category: Testing
+tags: [testing]
 ---
 
 *This is a repost of the entry written on the [TrackAbout Blog](https://corp.trackabout.com/blog/pitfalls-of-ignoring-tests-with-testing-frameworks/)*

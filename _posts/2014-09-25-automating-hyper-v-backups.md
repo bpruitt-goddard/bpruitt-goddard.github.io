@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Automating Hyper-V Backups
+category: Hyper-V
+tags: [automation, hyper-v]
 ---
 
 One of the many benefits of having a machine virtualized is the ease of backing it up. With a virtual machine, you can simply copy the entire contents of the hard drive (in the form of a VHD file or similar) and have the entire system backed up. Hyper-V takes the simple copy-paste process step further and provides an import/export feature that backs up not only the hard drive, but also the additional xml configuration files containing the network, hardware (CPU cores and memory), and other settings and restores it just as easily. With the buildout of Hyper-V [powershell commands](http://technet.microsoft.com/en-us/library/hh848559.aspx), I have been contemplating automating this process. My current backup process is as follows:
