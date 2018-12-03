@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Its OK to Only Work 40 Hours Remotely
+category: Misc
+tags: [job]
 ---
 
 After listening to Scott Hanselman's recent podcast on [Building Remote First Teams](http://hanselminutes.com/533/building-remote-first-teams-with-karolina-szczur), I realized that an often overlooked aspect of the remote worker's job is that of the time spent working compared to the on-site coworkers. After working remotely for an extended period of time, it can be easy to consistently work longer than other workers and still feel like you aren't doing enough.

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: You Should Customize Your Keyboard Like You Do Your Workspace
+gategory: Misc
+tags: [keyboard]
 ---
 
 Developers and other "professional computer users"' by definition spend the bulk of their time at their computer. So it's not surprising that there are so many guides comparing hardware and software tools to improve productivity. What is surprising though, is the lack of articles about customizing your keyboard experience, since your keyboard is the most used and most important part of the equation. There are guides for choosing a particular model of keyboard, but they focus solely on the hardware aspect and physical layout the the keys. While this is important, it is equally important to consider the ability of the software to tailor the keys to the user. 
