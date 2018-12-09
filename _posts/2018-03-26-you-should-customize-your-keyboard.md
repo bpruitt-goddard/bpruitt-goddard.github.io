@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You Should Customize Your Keyboard Like You Do Your Workspace
-gategory: Keyboard
+category: Keyboard
 tags: [keyboard]
 ---
 
