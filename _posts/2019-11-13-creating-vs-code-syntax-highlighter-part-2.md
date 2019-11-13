@@ -5,13 +5,13 @@ category: VS-Code
 tags: [vs-code, how-to]
 ---
 
-* [Part 1](2019-04-26-creating-vs-code-syntax-highlighter-part-1.md) - Introduction
+* [Part 1]{% post_url 2019-04-26-creating-vs-code-syntax-highlighter-part-1 %} - Introduction
 * Part 2 - Converting To Yaml
 
 # Problem
 After creating the extension in Part 1 and adding support for most of the syntax, the code was quickly becoming bloated and hard to follow in json. The issues were exactly those outlined in Microsoft's [conversion section](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#using-yaml-to-write-a-grammar).
 
-For example, here is a snippet from one of the regexes
+For example, here is a snippet from one of the Regular Expressions
 ```
 (\\b[-\\w]+\\b\\s*)(-?-[-\\>]\\|?|=?=[=\\>]|(?:\\.-|-\\.)-?\\>?)
 ```

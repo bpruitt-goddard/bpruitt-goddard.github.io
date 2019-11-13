@@ -6,7 +6,7 @@ tags: [vs-code, how-to]
 ---
 
 * Part 1 - Introduction
-* [Part 2]() - Converting To Yaml
+* [Part 2]{% post_url 2019-11-13-creating-vs-code-syntax-highlighter-part-2 %} - Converting To Yaml
 
 # Introduction
 
@@ -34,4 +34,4 @@ After getting the first few (test) pieces working, the next step was to determin
 
 # Next Steps
 
-After getting most of the functionality completed, it started to become hard to read the giant file due to the json boilerplate and the escaping needed for every regex expression. [Part 2]() of this series will explain the conversion to YML.
+After getting most of the functionality completed, it started to become hard to read the giant file due to the json boilerplate and the escaping needed for every regex expression. [Part 2]{% post_url 2019-11-13-creating-vs-code-syntax-highlighter-part-2 %} of this series will explain the conversion to YML.
