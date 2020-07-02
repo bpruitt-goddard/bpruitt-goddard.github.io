@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project: ELITE Event Deck Generator</title>
+</head>
+<body>
+<h1>Project: ELITE</h1>
+<h2>Event Deck Generator</h2>
+Choose Difficulty:
+<br />
+
+<button onclick="easyList()">Easy</button>
+<button onclick="mediumList()">Medium</button>
+<button onclick="hardList()">Hard</button>
+ 
+<br />
+<br />
+Cards:
+<table id="card-list" />
+
+<script type="text/javascript">//<![CDATA[
+    var table = document.getElementById("card-list");
+
+    function easyList() {
+        clearTable();
+
+        var cardsToUse = new Array()
+            .concat(
+                drawXFromList(5, new Array(17, 18, 19, 20, 21)),
+                drawXFromList(2, new Array(22,23)),
+                24)
+            .sort((a, b) => a - b);
+
+        cardsToUse.forEach(card =>
+            appendRow(card));
+    }
+
+    function mediumList() {
+        clearTable();
+
+        var oneToSixteen = [...Array(17).keys()].slice(1);
+        var cardsToUse = new Array()
+            .concat(
+                drawXFromList(3, oneToSixteen),
+                drawXFromList(2, new Array(17, 18, 19, 20, 21)),
+                drawXFromList(2, new Array(22,23)),
+                24)
+            .sort((a, b) => a - b);
+
+        cardsToUse.forEach(card =>
+            appendRow(card));
+    }
+
+    function hardList() {
+        clearTable();
+
+        var oneToSixteen = [...Array(17).keys()].slice(1);
+        var cardsToUse = new Array()
+            .concat(
+                drawXFromList(4, oneToSixteen),
+                drawXFromList(2, new Array(22,23)),
+                24,
+                25,
+            )
+            .sort((a, b) => a - b);
+
+        cardsToUse.forEach(card =>
+            appendRow(card));
+    }
+
+    function clearTable() {
+        table.innerHTML = '';
+    }
+
+    function appendRow(cardNum) {
+        var newRow = table.insertRow();
+        var newCell = newRow.insertCell(0);
+        var newText = document.createTextNode(cardNum);
+        newCell.appendChild(newText);
+    }
+
+    function drawXFromList(numToDraw, numRange) {
+        return shuffle(numRange)
+            .slice(0, numToDraw);
+
+        // Fisher-Yates shuffle algorithm
+        // https://stackoverflow.com/a/6274381/459018
+        function shuffle(a) {
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+    }
+  //]]></script>
+</body>
+</html>
