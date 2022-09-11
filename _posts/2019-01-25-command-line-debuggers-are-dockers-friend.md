@@ -5,7 +5,7 @@ category: Docker
 tags: [docker, side-projects]
 ---
 
-The goal with my side project is to keep everything reusable and not dependent upon the host machine. Using the traditional setup, only the code is local, with the compilation and execution done within docker containers. Not long after starting the project, there came a point where debugging was needed. 
+The goal with my side project is to keep everything reusable and not dependent upon the host machine. Using the traditional setup, only the code is local, with the compilation and execution done within docker containers. Not long after starting the project, there came a point where debugging was needed.
 
 ## Traditional Debuggers
 
@@ -16,7 +16,7 @@ With these tools remote debugging is an option, but it requires that the tooling
 
 Command-line debuggers don't require any IDE/tooling. Instead, they are part of the language, or a package/library. As the name implies, they enable debugging directly from the command line. The code can be paused at a breakpoint, current variables/state can be investigated, and execution can resume. The distinction is small, but it means that the code can be editor-agnostic and still allow debugging.
 
-Crucially, it keeps the debugging code with the deployed code/machine. 
+Crucially, it keeps the debugging code with the deployed code/machine.
 
 ## Enabling Usage For A Docker Container
 
@@ -24,12 +24,12 @@ Docker images are interacted with by design, meaning adding the ability to query
 
 ```yaml
 container:
-    tty: true
-    stdin_open: true
+  tty: true
+  stdin_open: true
 ```
 
-* **tty** Creates a terminal for the container
-* **stdin_open** Allows you to send commands to the container via standard input
+- **tty** Creates a terminal for the container
+- **stdin_open** Allows you to send commands to the container via standard input
 
 Once this is set up, the specifics for the particular debugger can be set up. In my case, ruby's [byebug](https://github.com/deivid-rodriguez/byebug) was already installed, so I was ready to use it.
 

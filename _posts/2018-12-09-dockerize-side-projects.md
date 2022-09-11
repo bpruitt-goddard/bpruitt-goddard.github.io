@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Make Side Projects Easier To Work On With Docker  
+title: Make Side Projects Easier To Work On With Docker
 category: Docker
 tags: [docker, side-projects]
 ---
@@ -22,9 +22,11 @@ One project-specific headache that Docker also solved was handling different ver
 A more general note to the last benefit, the isolation of all dependencies inside an app-specific container ensures that anything can be done on the host machine without worrying about it breaking the side project.
 
 ## Future Machine Changes
+
 Once the Docker configuration is set up, re-using it or migrating to another machine is as simple as re-building the container. This completely isolates the environment for this application from the rest of the host machine. With this flexibility, the host machine can be updated, or new software can be installed without worrying about any of these changes affecting the app's environment. Additionally the Docker image is a much smaller download than transferring a large virtual machine image between machines.
 
 When a new version of the framework/language/tooling becomes available for the app, it was difficult to update on the virtual machine because the old version may linger and the new version may break other software using the prior version. If everything is in Docker, then the version is defined in the container/configuration code. So updating the app to use the new version is as simple as pointing to the new container image or updating the configured version. And if this update fails or otherwise causes problem, the action can be easily reverted. No worries about re-installing an old version of ruby.
 
 ## Conclusion
+
 I was originally skeptical about using Docker for a side project as I thought it would be overkill or involve lots of setup/maintance. Instead, it provides what it advertises in a simple and easy-to-use manner. If any of the above issues are a problem for a personal (or any) project, I suggest giving Docker a try.

@@ -9,17 +9,17 @@ tags: [automation, how-to]
 
 My current project is on an application that spans a few projects. It requires:
 
-* React frontend
-* A Handful of .net core API backends isolating various services/connections
-* SQL database
-* Redis cache
-* Elasticsearch cluster
+- React frontend
+- A Handful of .net core API backends isolating various services/connections
+- SQL database
+- Redis cache
+- Elasticsearch cluster
 
 The datastores (SQL, Redis, Elasticsearch) were all set up using docker compose files.
 
 # Before tmux
 
-The original solution was running the above on an as-needed basis. This meant pointing at dev for all of the projects that were not currently being worked on to minimize the amount of services that needed to be manually run. This was good enough for a while, but became a hassle as more work cross-project work was needed, which meant a good bit of switching the configurations between pointing at dev and pointing locally. 
+The original solution was running the above on an as-needed basis. This meant pointing at dev for all of the projects that were not currently being worked on to minimize the amount of services that needed to be manually run. This was good enough for a while, but became a hassle as more work cross-project work was needed, which meant a good bit of switching the configurations between pointing at dev and pointing locally.
 
 Additionally, as features and data changed, the environments became "mixed". Some of the needed data was worked on pointing to the dev services, meaning it needed to be re-created locally for testing a new feature.  This left the local environment in a very broken state and meant it would be easier going forward to keep the local environment up-to-date with data and features.
 
@@ -44,9 +44,9 @@ Splitting a single window into multiple panes to group related services:
 Below is the initial script that was created. As the screenshots show, it creates a handful of (named) windows for each piece of functionality. It also splits some of the windows into (explicitly sized) panes for related commands. This makes it easy to navigate and find a particular window when debugging or looking for output.
 Additionally, the script allows for consolidating other command line features:
 
-* A git window
-* [Taskell](https://taskell.app/) for todo tracking
-* A window for backend dotnet testing
+- A git window
+- [Taskell](https://taskell.app/) for todo tracking
+- A window for backend dotnet testing
 
 Isolating each project into its own pane/window allows for a more customizable control of the setup and makes extensibility much easier. Going forward, this will be the go-to approach to set up even moderately-complicated setups due to all of these benefits.
 

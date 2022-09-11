@@ -5,8 +5,8 @@ category: VS-Code
 tags: [vs-code, how-to]
 ---
 
-* Part 1 - Introduction
-* [Part 2]({% post_url 2019-11-13-creating-vs-code-syntax-highlighter-part-2 %}) - Converting To Yaml
+- Part 1 - Introduction
+- [Part 2]({% post_url 2019-11-13-creating-vs-code-syntax-highlighter-part-2 %}) - Converting To Yaml
 
 # Introduction
 

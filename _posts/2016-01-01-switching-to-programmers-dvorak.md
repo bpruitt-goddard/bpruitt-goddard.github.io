@@ -24,19 +24,17 @@ One concern I had during my learning was that I would lose my proficiency at QWE
 
 ## Lessons Learned
 
-* Tracking the progress can be a major motivator, especially when the speed difference with the new layout leads to frustration.
-* Be consistent, especially until you have a general idea of where all the keys are, before skipping lessons.
+- Tracking the progress can be a major motivator, especially when the speed difference with the new layout leads to frustration.
+- Be consistent, especially until you have a general idea of where all the keys are, before skipping lessons.
 <!-- * Switching can boa done slowly or quickly as long as you are consistent. I only spent 30 minutes a day and was able to retrain my fingers. -->
-* You can be fluent in multiple layouts as long as you consistently use both.
-* There is a period of a few minutes once familiar with two layouts while you slowly remember the correct muscle memory for the current layout. You can still perform proficiently in both, but it is sometimes temporarily confusing quickly switching between them.
-
+- You can be fluent in multiple layouts as long as you consistently use both.
+- There is a period of a few minutes once familiar with two layouts while you slowly remember the correct muscle memory for the current layout. You can still perform proficiently in both, but it is sometimes temporarily confusing quickly switching between them.
 
 The graphs will be updated over the next few months while my DVORAK speed catches up with QWERTY.
 
 ## Final Update
 
 After tracking my progress for the last two years, I have decided to stop tracking it. I have committed the DVORAK layout to muslce memory and can switch between the two seemlessly. I use DVORAK 100% of the time while working, but have no issue switching back to default QWERTY layouts on other machines. The charts indicate that I have not fully matched QWERTY speed, but I believe this to be because I have not used DVORAK sufficiently to type long-winded documents; most of my work involves only typing in short bursts for chat messages or the like. I enjoy using DVORAK as my primary layout because I can feel the difference in the general finger movement between the two layouts.
-
 
 <figure class="wpm">  
   <figcaption>Words Per Minute (WPM) improvement</figcaption>
@@ -45,8 +43,6 @@ After tracking my progress for the last two years, I have decided to stop tracki
 <figure class="accuracy">
   <figcaption>Accuracy improvement</figcaption>
 </figure>
-
-
 
 <style>
 path { 
