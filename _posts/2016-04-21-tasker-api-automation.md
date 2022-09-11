@@ -11,23 +11,25 @@ As an avid board gamer, I pay attention to the rankings on [BoardGameGeek](https
 
 I wanted to create a voice command that would hook into Google Voice. The command would listen for the phrase "BGG rank", followed by a board game name and simply provide me with it's board game rank from the BoardGameGeek website. It can get tripped up with difficult names, or games re-released at different times, but these are limitations with the API.
 
-Writing this command had me interacting with multiple APIs, parsing vocal input, and using Regex, all within Tasker. I've included the details of each step in order to follow along. The only requirements for setting this up are to install Tasker and its plugin AutoVoice. Note that AutoVoice will require the paid version - see [Step 1](#retrieving-game-rank-part-1). 
+Writing this command had me interacting with multiple APIs, parsing vocal input, and using Regex, all within Tasker. I've included the details of each step in order to follow along. The only requirements for setting this up are to install Tasker and its plugin AutoVoice. Note that AutoVoice will require the paid version - see [Step 1](#retrieving-game-rank-part-1).
 
 Additionally, I included a gist at the end of the final result XML exported from Tasker.
 
 ## Steps
 
 ### Create Listening Command
+
 The first step was having AutoVoice listen to for my keywords "BGG rank". This was easy enough to do by simply setting the `Command Filter` on an `AutoVoice Recognized` context. This would run the associated task whenever it heard that phrase. Even better, it would also automatically populate the various AutoVoice variables (eg `%avcommnofilter` and `%avcomm`) with the spoken text.
 
 At this point if the task is wired up to show these variables, it should show the text properly. But that is not the case. It turns out if you only use the trial version of AutoVoice, it will truncate the search string to 4 (non-space) _characters_. Meaning if you spoke "BGG rank Agricola", you would only get "BGG r". Because of this, a full version of the plugin is required.
 
 ### Retrieving Game Rank (Part 1)
+
 There is no direct way to go from search term to board game rank using the [BGG XML API](https://boardgamegeek.com/wiki/page/BGG_XML_API). Instead it requires a call to retrieve the board game ID and then a call to get the stats for the game.
 
 The board game ID can be retrieved using the search API https://www.boardgamegeek.com/xmlapi/search?search=&lt;GameSearch&gt;. But first, we need to do a simple `Variable Search Replace` to convert any spaces to URL encoded spaces as the name will be in the query string.
 
-Once encoded,  it can simply be injected into the URL and called via an `HTTP Get` action. Additional filtering for the API does not currently exist, so the result will return an unsorted, unfiltered list of results.
+Once encoded, it can simply be injected into the URL and called via an `HTTP Get` action. Additional filtering for the API does not currently exist, so the result will return an unsorted, unfiltered list of results.
 
 ### Retrieving Game Rank (Part 2)
 
@@ -41,6 +43,7 @@ From the result of the first API call, the game's ID can be retrieved. An exampl
 	</boardgame>
 </boardgames>
 ```
+
 The ID can be retrieved by a Regex using positive lookbehind like this: `(?<=\bobjectid=")[^"]*`.
 
 With the ID, a second API call can be made to https://www.boardgamegeek.com/xmlapi/boardgame/&lt;ID&gt; to retrieve the game's stats. A sample response from our example, with some extraneous data removed for brevity, looks like this:

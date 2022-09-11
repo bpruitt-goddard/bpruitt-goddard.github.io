@@ -15,7 +15,7 @@ Consuming news and informational articles requires more active attention. But th
 
 ## Production
 
-Writing about topics that are learned through direct usage or read/researched about is a great way to organize thoughts and retain the information. Explaining the idea in the form of something like a blog post requires organizing the thoughts into a coherent and flowing form. Additionally, compiling all of the information brings to light any areas that are not fully understood or need to be reinforced. 
+Writing about topics that are learned through direct usage or read/researched about is a great way to organize thoughts and retain the information. Explaining the idea in the form of something like a blog post requires organizing the thoughts into a coherent and flowing form. Additionally, compiling all of the information brings to light any areas that are not fully understood or need to be reinforced.
 
 Similar to the consumption tip, this task can effectively be broken up by writing the post in chunks during downtime or when a thought/inspiration occurs. Use a cloud-based system to store the document to allow the writing to take place at a desk or on the go with a phone.
 
