@@ -47,11 +47,13 @@ http
 ```
 
 Once the above is running, it is only a matter of retrieving this data in Postman. To do that, each request needs to be updated with the following:
+
 {% raw %}
 
 1. Change the Authorization to `Bearer Token` and the token be the global variable `{{bearer_token}}`.
 2. Add this script to the Pre-Request Script section to retrieve the bearer token and assign it to the global variable.
-   {% endraw %}
+
+{% endraw %}
 
 ```js
 pm.sendRequest("http://localhost:7200", (_, response) => {
