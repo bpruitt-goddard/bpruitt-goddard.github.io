@@ -76,7 +76,7 @@ figcaption {
 }
 
 </style>
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script type="text/javascript">
 
 //D3 design inspired by http://www.d3noob.org/2014/07/d3js-multi-line-graph-with-automatic.html
